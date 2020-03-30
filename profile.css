@@ -36,7 +36,7 @@ nav a {
   text-decoration: none;
   display: block;
   color: white;
-  padding: 20px;
+  padding: 25px;
   font-size: 25px;
   border-style: solid;
   border-left-style: none;    
@@ -103,6 +103,3 @@ th,  td
 	border: 3px solid black;
 }
 
-header {
-
-}

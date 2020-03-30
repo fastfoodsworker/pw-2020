@@ -1,97 +1,98 @@
 /*General CSS starts here*/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    font-size: 75px;
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  font-size: 75px;
 }
 
-p {
-    margin: 0px 120px 0px;
-    font-size: 30px;
-    text-align: center;
+p{
+  margin: 0px 120px 0px;
+  font-size: 30px;
+  text-align: center;
 
-  }
-  
-  body {
-    background-color: rgb(168, 250, 210);
-    margin: 0;
-  }
-  
-  span {
-    font-weight: bold;
-    color: black;
-    font-size: 55px;
-  }
-  
+}
+
+body {
+  background-color: #85dcb8;
+  margin: 0;
+}
+
+span {
+  font-weight: bold;
+  color: black;
+  font-size: 55px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background-color: #8EE4AF;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;    
+}
+
+nav a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 25px;
+  font-size: 25px;
+  border-color: white;
+  border-style: solid;
+  border-left-style: none;    
+  border-width: 3px;
+  width:100%;
+}
+
+nav a:hover {
+  background-color: #41B3A3;
+}
+
+#active {
+  background-color: skyblue;
+}
+
+@media screen and (max-width: 600px) {
   nav {
-    position: sticky;
-    top: 0;
-    background-color: SPRINGGREEN;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;    
-  }
-  
-  nav a {
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    color: white;
-    padding: 20px;
-    font-size: 25px;
-    border-style: solid;
-    border-left-style: none;    
-    border-width: 3px;
-    width:100%;
-  }
-  
-  nav a:hover {
-    background-color: limegreen;
-  }
-  
-  #active {
-    background-color: steelblue;
-  }
-  
-  @media screen and (max-width: 600px) {
-    nav {
-      position: static;
-      flex-direction: column;
-    }
-  
-    nav a {
-          text-align: center;
-    }
-  }
-  
-  /*General CSS ends here*/
-  
-  aside {
-    border: 5px dotted blue;
-  }
-  
-  /*nice*/
-  section {
-    border: dotted blue;
-    font-size: 28px;
-    text-align: center;
-  }
-  
-  #content {
-    display: table;
-    width: 90%;
-    margin: 20px auto
-  }
-  
-  @media screen and (max-width:768px) {
-    box {
-      display: block
-    }
-  
+    position: static;
+    flex-direction: column;
   }
 
-  ul {
-    border: 1px solid #555;
-    
+  nav a {
+        text-align: center;
   }
+}
+
+/*General CSS ends here*/
+
+aside {
+  border: 5px dotted blue;
+}
+
+/*nice*/
+section {
+  border: dotted blue;
+  font-size: 28px;
+  text-align: center;
+}
+
+#content {
+  display: table;
+  width: 90%;
+  margin: 20px auto
+}
+
+@media screen and (max-width:768px) {
+  box {
+    display: block
+  }
+
+}
+
+ul {
+  border: 1px solid #555;
+  
+}
