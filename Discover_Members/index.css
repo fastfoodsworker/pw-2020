@@ -1,0 +1,219 @@
+/* Discover members CSS */
+.logo {
+  text-align: center;
+}
+
+.label-picture{
+  width:100%;
+  max-width:400px; 
+  height: 100%;
+  max-height:400px;
+}
+
+h1, h2, h3 {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-size: 75px;
+}
+ 
+body {
+  font-family: Rubik, Arial;
+}
+ 
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+ 
+form hr {
+  width: 15%;
+}
+ 
+h1 {
+  text-align: center;
+}
+ 
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
+ 
+#logo {
+  height: 100px;
+  display: block;
+  margin: auto;
+}
+ 
+ 
+.toppings label, .cheesy label {
+  margin-right: 25px;
+}
+ 
+ 
+p {
+	margin: 0px 120px 0px;
+	font-size: 30px;
+	text-align: center;
+ 
+}
+ 
+body {
+ 
+  margin: 0;
+}
+ 
+span {
+  font-weight: bold;
+  color: black;
+  font-size: 55px;
+}
+ 
+nav {
+  position: sticky;
+  top: 0;
+  background-color: SPRINGGREEN;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;    
+}
+ 
+nav a {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: white;
+  padding: 25px;
+  font-size: 25px;
+  border-color: black;
+  border-style: solid;
+  border-left-style: none;    
+  border-width: 1.5px;
+  width:100%;
+}  
+
+ 
+@media screen and (max-width: 600px) {
+  nav {
+	position: static;
+	flex-direction: column;
+  }
+ 
+  nav a {
+	text-align: center;
+  }
+}
+ 
+/*General CSS ends here*/
+ 
+aside {
+  border: 5px dotted blue;
+}
+ 
+/*nice*/
+section {
+  border: dotted blue;
+  font-size: 28px;
+  text-align: center;
+}
+ 
+#content {
+  display: table;
+  width: 90%;
+  margin: 20px auto
+}
+ 
+@media screen and (max-width:768px) {
+  box {
+	display: block
+  }
+}
+ 
+ul {
+  border: 1px solid #555;
+}
+/* overwrite starts here */
+h3 {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    color: #5e5e5e;
+}
+
+.card {
+    transition: 0.3s;
+    background-color: #e3e3e3;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  size: 1800px 500px;
+}
+
+#ken{
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0;
+    transition: 0.3s;
+}
+
+.label-picture {
+    margin-top: 5px;
+}
+
+.container {
+    margin-bottom: 5px;
+}
+
+/* Float two columns side by side */
+.column {
+  float: left;
+  width: 47%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+	width: 100%;
+	display: block;
+	margin-bottom: 20px;
+  }
+}
+
+.view {
+  padding: 5px 9px;
+  margin-bottom: 5px;
+  font-size: 15px;
+  background-color: lightblue;
+}
+
+.view:hover {
+  background-color: darkslategray;
+  color: white;  
+  transition: 0.3s;
+}

@@ -1,8 +1,45 @@
+/*Profile CSS*/
+.logo {
+  text-align: center;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     font-size: 75px;
 }
+
+body {
+  font-family: Rubik, Arial;
+}
+
+form {
+  text-align: center;
+  line-height: 30px;
+  height: 80%;
+  overflow: auto;
+}
+
+form hr {
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#overlay {
+  width: 80%;
+  margin: 3% auto;
+  height: 95vh;
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 40px;
+}
+
+.toppings label, .cheesy label {
+  margin-right: 25px;
+}
+
 
 p {
     margin: 0px 120px 0px;
@@ -12,7 +49,7 @@ p {
 }
   
 body {
-  background-color: rgb(168, 250, 210);
+
   margin: 0;
 }
   
@@ -38,9 +75,10 @@ nav a {
   color: white;
   padding: 25px;
   font-size: 25px;
+  border-color: black;
   border-style: solid;
   border-left-style: none;    
-  border-width: 3px;
+  border-width: 1.5px;
   width:100%;
 }  
 nav a:hover {
@@ -95,11 +133,24 @@ table
 {
 	margin-left: auto;
 	margin-right: auto;
-	border: 3px solid black;
+  border: 3px solid black;
+  border-collapse: collapse;
 }
 
 th,  td
 {
-	border: 3px solid black;
+  border: 3px solid black;
+  padding: 20px 100px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.profile-picture {
+  height: 30%;
+  width: 30%;
+}
+
+.profile {
+  text-align: center;
 }
 
