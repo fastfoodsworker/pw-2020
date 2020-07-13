@@ -1,4 +1,4 @@
-/* Profile CSS */
+/* Discover CSS */
 
 .topnav {
 	background-color: #030303;
@@ -22,15 +22,4 @@
 .topnav a.active {
 	background-color: lightgrey;
 	color: black
-}
-
-table, td, th {
-	border: 2px solid black;
-	margin-top:20px;
-	border-collapse: collapse;
-}
-
-th, td {
-	padding: 15px;
-	text-align: left;
 }
